@@ -31,7 +31,7 @@ for (const image of images) {
 
 /* Wiring up the Darken/Lighten button */
 
-tn.addEventListener('click', () => {
+btn.addEventListener('click', () => {
   const btnClass = btn.getAttribute('class');
   if (btnClass === 'dark') {
     btn.setAttribute('class', 'light');
